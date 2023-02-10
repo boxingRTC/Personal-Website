@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+    <link rel="preload" href="style.css" as="style"> 
+    <link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" 
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" as="style">
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" as="style">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" role="navigation">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                    <ul class="navbar-nav justify-content-center">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#nav1">Presentación</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#nav2">Currículum</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#nav3">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#nav4" tabindex="-1" aria-disabled="true">Portafolio</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="presentacion">
+            <img src="img/me.jpg" alt="Foto-Personal" width="200px" id="imagen">
+            <h1>Raúl Triviño Castro</h1>
+        </div>
+        <div id="nav1">
+            <br>
+            <br>
+            <br>
+            <h2>Presentación</h2>
+            <p>Hola, soy Raúl Triviño Castro. Soy un chico muy activo y con ganas de
+                aprender. Mis hobbys son los videjuegos, pasar tiempo con los amigos
+                y todo tipo de deportes. Actualmente me encuentro cursando un ciclo de
+                desarrollador web. Me interesan todo tipo de conceptos relacionados
+                con la informática, y en un futuro me gustaria dedicarme a ello.
+            </p>
+        </div>
+        <div id="nav2">
+            <br>
+            <br>
+            <h2 class="presentacion">Currículum</h2>
+            <br>
+            <br>
+            <div class="cv">
+                <div>
+                    <h3>Estudios</h3>
+                    <h4 class="subtittle">ESO</h4>
+                    <b>Ies Marratxí 2013-2019</b>
+                    <p>Educación Secundaria Obligatoria, modalidad de ciencias.</p>
+                    <h4 class="subtittle">BACH</h4>
+                    <b>Ies Marratxí 2019-2021</b>
+                    <p>Estudios post obligatorios, bachillerato de ciencias enfocado
+                        en bioquímica.
+                    </p>
+                    <h4 class="subtittle">DAW</h4>
+                    <b>Es Liceu (Actualmente cursando)</b>
+                    <p>Estudios post obligatorios, grado superior de desarrollo de
+                        aplicaciones web.
+                    </p>
+                </div>
+                <div id="info">
+                    <h3>Información personal</h3>
+                    <h4>Nombre</h4>
+                    <p>Raúl Triviño Castro</p>
+                    <h4>Dirección</h4>
+                    <p>Calle Sicilia 51B</p>
+                    <p>07141</p>
+                    <h4>Fecha de nacimiento</h4>
+                    <p>24 de julio de 2003</p>
+                    <h4>Nacionalidad</h4>
+                    <p>Español (España)</p>
+
+                </div>
+            </div>
+            <br>
+            <div class="cv">
+                <div>
+                    <h3>Idiomas</h3>
+                    <h4>Ingles</h4>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75"
+                            aria-valuemin="0" aria-valuemax="100" name="enbar" aria-label="enbar"></div>
+                    </div>
+                    <h4>Castellano</h4>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
+                            aria-valuemin="0" aria-valuemax="100" name="esbar" aria-label="esbar"></div>
+                    </div>
+                    <h4>Catalán</h4>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
+                            aria-valuemin="0" aria-valuemax="100" name="catbar" aria-label="catbar"></div>
+                    </div>
+                    <h4>Alemán</h4>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25"
+                            aria-valuemin="0" aria-valuemax="100" name="gerbar" aria-label="gerbar"></div>
+                    </div>
+                </div>
+                <div>
+                    <h3>Aptitudes</h3>
+                    <h4>HTML5</h4>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
+                            aria-valuemin="0" aria-valuemax="100" name="htmlbar" aria-label="htmlbar"></div>
+                    </div>
+                    <h4>PYTHON</h4>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25"
+                            aria-valuemin="0" aria-valuemax="100" name="pybar" aria-label="pybar"></div>
+                    </div>
+                    <h4>JAVA</h4>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
+                            aria-valuemin="0" aria-valuemax="100" name="javabar" aria-label="javabar"></div>
+                    </div>
+                    <h4>JAVASCRIPT</h4>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75"
+                            aria-valuemin="0" aria-valuemax="100" name="jsbar" aria-label="jsbar "></div>
+                    </div>
+                    <h4>CSS</h4>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
+                            aria-valuemin="0" aria-valuemax="100" name="cssbar" aria-label="cssbar"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="nav3">
+            <br>
+            <br>
+            <h2 class="presentacion">Contacto</h2>
+            <p>Puedes contactar conmigo a través de:</p>
+            <p>Mi correo electrónico <a
+                    href="mailto:raultrivinocastro@gmail.com?Subject=Contacto%20desde%20web">raultrivinocastro@gmail.com</a>
+            </p>
+            <p>Mi numero de teléfono personal 608 68 60 21</p>
+            <p>Las redes sociales proporcionadas en la parte inferior de la página</p>
+
+        </div>
+
+        <div id="nav4">
+            <br>
+            <br>
+            <h2 class="presentacion">Portafolio</h2>
+            <h3>Trabajos realizados</h3>
+            <h2>Buscaminas</h2>
+            <p>Como trabajo de clase tuve que realizar un buscaminas combinando HTML, CSS y JAVASCRIPT, implementandolo dentro de un canvas</p>
+            <h2>Lector de código de barras</h2>
+            <p>Como proyecto final de programación creé un programa que tenia la capacidad de traducir códigos de barras
+                proporcionados como texto o como imágen, y traducirlos a su correspondiente mensaje. Se emplearon dos Idiomas
+                de código de barras diferentes. 
+            </p>
+            <h2>Creador de figuras</h2>
+            <p>Utilizando la herramienta IntelliJ y Docker, tuve que crear una aplicación web que almacenase figuras las cuales se dibujaban 
+                en un "canvas". Dichas figuras podian ser borradas o mostradas posteriormente.
+            </p>
+            <h2>MazeGame</h2>
+            <p>La última entrega de aplicación web fue un mini-juego que consistia en un laberinto el cual se tiene que recorrer
+                para llegar a una sala final. En el transcurso se pueden recoger llaves y monedas, con las cuales podemos abrir puertas
+                para llegar al final. 
+            </p>
+            <h2>Numbers</h2>
+            <p>Como primera páctica de programación en Java, tuvimos que hacer un traductor de numeros a letras y de letras a numeros,
+                el idioma al que se debia traducir era el inglés.
+            </p>
+            <br>
+            <br>
+            <br>
+        </div>
+
+    </main>
+    <footer class="text-center text-white fixed-bottom" style="background-color: #f1f1f1;">
+        <!-- Grid container -->
+        <div class="container pt-4" role="navigation">
+            <!-- Section: Social media -->
+            <section class="mb-4">
+                <!-- Facebook -->
+                <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://es-es.facebook.com/" role="button"
+                    data-mdb-ripple-color="dark" aria-label="fb"><i class="fa fa-facebook-f"></i></a>
+
+                <!-- Google -->
+                <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://mail.google.com/chat/u/0/?hl=es" role="button"
+                    data-mdb-ripple-color="dark" aria-label="google"><i class="fa fa-google"></i></a>
+
+                <!-- Instagram -->
+                <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://www.instagram.com/" role="button"
+                    data-mdb-ripple-color="dark" aria-label="ig"><i class="fa fa-instagram"></i></a>
+
+                <!-- Linkedin -->
+                <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://es.linkedin.com/" role="button"
+                    data-mdb-ripple-color="dark" aria-label="linkedin"><i class="fa fa-linkedin"></i></a>
+                <!-- Github -->
+                <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://github.com/" role="button"
+                    data-mdb-ripple-color="dark" aria-label="gh"><i class="fa fa-github"></i></a>
+            </section>
+            <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
